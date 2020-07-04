@@ -115,7 +115,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c-55"	[$WIN32]
-		"ypos"			"r205"	[$WIN32]
+		"ypos"			"r185"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"200"
@@ -155,7 +155,7 @@
 			}
 			"Scout"
 			{
-				"fov"			"14"
+				"fov"			"25"
 				"angles_x"		"-17"
 				"angles_x_minmode"	"-10"
 				"angles_y"		"145"
@@ -167,7 +167,7 @@
 			}
 			"Sniper"
 			{
-				"fov"			"13.5"
+				"fov"			"25"
 				"angles_x"		"-10"
 				"angles_x_minmode"	"0"
 				"angles_y"		"172"
@@ -179,7 +179,7 @@
 			}
 			"Soldier"
 			{
-				"fov"			"12"
+				"fov"			"25"
 				"angles_x"		"-10"
 				"angles_x_minmode"	"-3"
 				"angles_y"		"170"
@@ -192,7 +192,7 @@
 			}
 			"Demoman"
 			{
-				"fov"			"13"
+				"fov"			"25"
 				"angles_x"		"-13"
 				"angles_x_minmode"	"-3"
 				"angles_y"		"200"
@@ -204,7 +204,7 @@
 			}
 			"Medic"
 			{
-				"fov"			"11"
+				"fov"			"25"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"3"
 				"angles_y"		"178"
@@ -216,7 +216,7 @@
 			}
 			"Heavy"
 			{
-				"fov"			"9.5"
+				"fov"			"25"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"0"
 				"angles_y"		"200"
@@ -229,7 +229,7 @@
 			}
 			"Pyro"
 			{
-				"fov"			"11"
+				"fov"			"25"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"0"
 				"angles_y"		"172"
@@ -241,7 +241,7 @@
 			}
 			"Spy"
 			{
-				"fov"			"10"
+				"fov"			"25"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"3"
 				"angles_y"		"160"
@@ -254,7 +254,7 @@
 			}
 			"Engineer"
 			{
-				"fov"			"9"
+				"fov"			"25"
 				"angles_x"		"-10"
 				"angles_x_minmode"	"0"
 				"angles_y"		"168"
@@ -269,19 +269,7 @@
 		}
 	}
 
-    "DOOMBG"
-{
-   "ControlName"			"EditablePanel"
-		"fieldName"				"DOOMBG"
-		"xpos"					"c20"
-		"ypos"					"r27"
-		"zpos"					"1"
-		"wide"					"500"
-		"visible"				"1"
-		"enabled"				"1"
-		"tall"	 				"28"
-		"fillcolor"				"black"
-}
+  
 
 	"CarryingWeapon"
 	{

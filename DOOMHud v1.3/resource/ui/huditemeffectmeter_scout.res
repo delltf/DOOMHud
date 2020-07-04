@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,11 +6,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r174"
-		"ypos"			"r57"
-		"xpos_minmode"	"r52"
-		"ypos_minmode"	"r68"
-		"x_offset_minmode"		"0"
+		"xpos"			"c67"	[$WIN32]
+		"ypos"			"r54"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos_minmode"	"r68"	[$WIN32]
+		"x_offset_minmode"		"0"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -21,7 +23,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"111112"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
@@ -41,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
+		"xpos"					"36"
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
@@ -55,7 +57,7 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Cleaver"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -72,7 +74,7 @@
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"50"
 		"wide_minmode"			"50"
 		"tall"					"5"				
 		"autoResize"			"0"
